@@ -14,7 +14,7 @@
           "skipTests": true
         }
       },
-      "root": ".",
+      "root": "",
       "sourceRoot": "src",
       "prefix": "ae",
       "architect": {
