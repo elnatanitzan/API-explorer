@@ -1,0 +1,55 @@
+:host {
+    background: #eeeeee;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+    h2 {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        &:hover {
+            white-space: unset;
+            overflow: visible;
+            text-overflow: unset;
+        }
+    }
+    
+    p {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        &:hover {
+            white-space: unset;
+            overflow: visible;
+            text-overflow: unset;
+        }
+    }
+
+    footer {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+
+        .protocol {
+            font-weight: 600;
+            background: #afafaf;
+            padding: .5rem;
+            border-radius: 8px;
+
+            &.secure {    
+                background: rgb(184, 255, 251);
+            }
+        }
+
+        .category {
+            font-weight: 600;
+            background: #feffbf;
+            padding: .5rem;
+            border-radius: 8px;
+        }
+    }
+}
